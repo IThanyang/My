@@ -1,12 +1,25 @@
+*{
+		margin: 0;
+		padding: 0;
+}
 html{
 		font-size: 62.5%;	
+		font-family:Microsoft YaHei, serif;
 }
-
+img {
+	    vertical-align: middle;
+	    max-width: 100%;
+}
 .wrap{
 		max-width: 640px;
-		height: 800px;
+		height: 60rem;
 		margin: 0 auto;
 		overflow: hidden;
+		background-color: #f0f0f0;
+}
+
+.header{
+		height: 5.5rem;
 }
 .nav-c{
 		background-color: #29bde0;
@@ -14,7 +27,7 @@ html{
 		margin: 0 auto;
 }
 /*导航栏小图标样式*/
- nav button{
+nav button{
  		height:40px; 
  		width:40px; 
  		display:block; 
@@ -43,4 +56,109 @@ html{
 		box-shadow:0 12px #fff, 0 24px #fff;
 		-webkit-box-shadow:0 12px #fff, 0 24px #fff;
 		-moz-box-shadow:0 12px #fff, 0 24px #fff;
+}
+.top{
+		border: solid #c9c9c9; 
+		height: 8%;
+		width: 90%;
+		margin: 0 auto;
+		display: flex;
+		position: relative;
+		align-items: center;
+		overflow: hidden;
+		background-color: #fff;
+}
+.top-span{
+		margin: 0 auto;
+		color: #9a9a9a;
+		font-size: 2.5rem;
+}
+.top-img{
+		position: absolute;
+		right: 1%;
+		width: 4%;
+}
+.content{
+		border: solid #c9c9c9;
+		border-bottom-color: #fcc768;
+		width: 90%;
+		height: 7.5%;
+		margin: 0 auto;
+		margin-top: 3%;
+		overflow: hidden;
+		display: flex;
+		align-items: center;
+		background-color: #fff;
+}
+.content-span{
+		color: #fcc768;
+		font-size: 2.2rem;
+		margin: 0 auto;
+}
+.main{
+		border: solid #c9c9c9;
+		border-top: none;
+		width: 90%;
+		height: 70%;
+		margin: 0 auto;
+		overflow: hidden;
+		text-align: center;
+		position: relative;
+		background-color: #fff;
+}
+.main-span{
+		margin: 0 auto;
+		font-size: 2rem;
+		width: 100%;
+		color: #9a9a9a;
+}
+.box{
+		background-color: #69d1e9;
+		width: 80%;
+		height: 15%;
+		margin: 5% auto 5%;
+		display: flex;
+		align-items: center;
+}
+.box-span{
+		color: #fff;
+		font-size: 3rem;
+		margin: 0 auto;
+}
+.main-img{
+		width: 3%;
+}
+/*左三角*/
+.triangle-left {
+	    position: absolute;
+	    top: 18rem;
+	    right: 1%;
+	    width: 0;
+	    height: 0;
+	    border-top: 2rem solid transparent;
+	    border-left: 2rem solid #Fbb435;
+	    border-bottom: 2rem solid transparent;
+}
+.more {
+	    height: 2rem;
+	    width: 6rem;
+	    margin: 2% auto;
+}
+/*圆形*/
+.circle {
+	    float: left;
+	    width: 1rem;
+	    height: 1rem;
+	    margin: 1%;
+	    background-color: #f0f0f0;
+	    border-radius: 50%;
+	    -webkit-border-radius: 50%;
+	    -moz-border-radius: 50%;
+	    border: 1px rgba(225, 225, 225, 0.5) solid;
+}
+.circle:hover {
+    	background: #69d1e9;
+}
+@media screen and (max-width: 480px){
+    html{font-size: 50%;}
 }
