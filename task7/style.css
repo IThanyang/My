@@ -1,0 +1,46 @@
+html{
+		font-size: 62.5%;	
+}
+
+.wrap{
+		max-width: 640px;
+		height: 800px;
+		margin: 0 auto;
+		overflow: hidden;
+}
+.nav-c{
+		background-color: #29bde0;
+		max-width: 640px;
+		margin: 0 auto;
+}
+/*导航栏小图标样式*/
+ nav button{
+ 		height:40px; 
+ 		width:40px; 
+ 		display:block; 
+ 		position:relative;
+ 		border: none;
+ 		margin: 0.7% 2% 0 ;
+ 		background-color: #29bde0;
+ 		outline: none;	
+ } 
+.demoSpan1{
+		width:40px; 
+		height:40px;
+}
+.demoSpan1:before{
+		content:''; 
+		height:6px; 
+		width:40px; 
+		background:#fff; 
+		border-radius:4px;
+		-webkit-border-radius:4px;
+		-moz-border-radius:4px; 
+		display:block; 
+		position:absolute; 
+		top:5px; 
+		left:0px; 
+		box-shadow:0 12px #fff, 0 24px #fff;
+		-webkit-box-shadow:0 12px #fff, 0 24px #fff;
+		-moz-box-shadow:0 12px #fff, 0 24px #fff;
+}
